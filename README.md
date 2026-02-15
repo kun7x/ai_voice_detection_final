@@ -15,6 +15,9 @@ Built with **Wav2Vec2-Large-XLSR-53** fine-tuned for binary classification — a
 | EER | **0.25%** |
 
 ---
+## Model
+Download the model
+https://huggingface.co/kimnamjoon0007/lkht-v440/resolve/main/best_model.pt
 
 ## Dataset
 
