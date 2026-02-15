@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# Model weights (too large for GitHub)
+*.pt
+*.pth
+*.onnx
+*.safetensors
+wav2vec2_backbone/
+
+# Dataset (local only)
+dataset/
+
+# Notebooks (content moved to guides)
+*.ipynb
+
+# Temp/test files
+test_payload.json
+curl_payload.json
+*.tmp
+
+# Old files (superseded by new structure)
+ai_voice_detection_fixed.py
+api.py
+hf_space/
+hf_upload/
+test_api.py
+generate_curl.py
+create_space.py
+push_space.py
+best_model.pt
+
+# Documents (local reference only)
+*.pdf
+PRESENTATION_CONTENT.md
+MODEL_FLOWCHART.md
+HUGGINGFACE_DEPLOY.md
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
